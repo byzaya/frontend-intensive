@@ -16,13 +16,13 @@
             <nav class="menu">
                 <ul class="menu-list">
                     <li class="menu-item">
-                        <a href="#">Почему у нас</a>
+                        <a data-link="why">Почему у нас</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Меню бургеров</a>
+                        <a data-link="products">Меню бургеров</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Оформление заказа</a>
+                        <a data-link="order">Оформление заказа</a>
                     </li>
                 </ul>
             </nav>
@@ -40,7 +40,7 @@
                     вкусом наших бургеров. Готовим для вас лучшие бургеры в городе из отборной мраморной говядины.
                 </p>
                 <div class="main-action">
-                    <button class="button">Смотреть меню</button>
+                    <button class="button" id="main-action-button">Смотреть меню</button>
                 </div>
             </div>
             <img src="images/big_burger.png" alt="Burger" class="main-image">
@@ -48,7 +48,7 @@
     </section>
 </section>
 
-<section class="why">
+<section class="why" id="why">
     <div class="container">
         <div class="common-title">почему нас выбирают?</div>
         <div class="why-items">
@@ -80,7 +80,7 @@
     </div>
 </section>
 
-<section class="products">
+<section class="products" id="products">
     <div class="container">
         <div class="common-title">выберите свой бургер</div>
         <div class="products-items">
@@ -435,7 +435,7 @@
     </div>
 </section>
 
-<section class="order">
+<section class="order" id="order">
     <div class="container">
         <div class="order-title common-title">оформление заказа</div>
         <img src="images/order_image.png" alt="burger in box" class="order-image">
@@ -474,5 +474,6 @@
     </div>
 </footer>
 
+<script src="scripts/script.js"></script>
 </body>
 </html>
